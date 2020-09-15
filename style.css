@@ -8,6 +8,19 @@
     margin: 0 auto;
 }
 
+.top{
+    height: 768px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+
+.top_box{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-image: url(./img/illustration.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
 
 
 .contactscontainer{
@@ -62,6 +75,8 @@
 .header{
     display: flex;
     justify-content: space-between;
+    list-style-type: none;
+    padding-top: 42px;
 }
 
 .what-we-do{
@@ -78,10 +93,44 @@ body{
     color: #1F3F68;     
 }
 
-.BigH1{
-    font-size: 64px;
+.paragraphTOP{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
     color: #1F3F68;
-    width: 510px;
+    opacity: 0.6;
+    width: 425px;
+    margin-bottom: 71px;
+}
+
+.top_button{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 15px 50px;
+    text-decoration: none;
+    
+}
+
+
+.BigH1{
+    width: 504px;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    margin-bottom: 32px;
+}
+
+.AutomationTool{
+    padding-top: 115px;
+    flex-grow: 1;
 }
 
 .BigH2{
@@ -94,11 +143,31 @@ body{
     font-size: 36px;
     text-align: center;
 }
+
+.digitalH3{
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
 .BigH4{
      font-size: 20px;
      line-height: 30px;
      color: #1F3F68;
      width: 359px;
+}
+
+.cardH4{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    margin-bottom: 14px;
 }
 
 .paragraphH4{
