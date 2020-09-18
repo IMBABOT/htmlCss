@@ -198,6 +198,27 @@ body{
     padding-left: 50px;
 }
 
+.finishProject__para{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #222222;
+    padding-left: 318px;
+    padding-right: 318px;
+}
+
+.finishProjectH3{
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    padding-top: 63px;
+    padding-bottom: 32px;
+}
+
 .paragraphH4{
     font-size: 16px;
     line-height: 26px;
