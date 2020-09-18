@@ -216,7 +216,49 @@ body{
     margin: 0 auto;
 }
 
-.co
+.project{
+
+}
+
+.project__parent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.project__item{
+    position: relative;
+    flex-grow: 1;
+}
+
+.project__item__first{
+    margin-right: 32px;
+}
+
+.project__text{
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 64px;
+    right: 64px;
+}
+
+.second_text{
+    right: 300px;
+    top: 32px;
+}
+
+.third_text{
+    right: 200px;
+    top: 32px;
+}
+
+.project__img{
+    width: 100%;
+}
 
 .paragraphH4{
     font-size: 16px;
