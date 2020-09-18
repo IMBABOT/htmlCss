@@ -192,16 +192,19 @@ body{
 
 
 .finishProject__para{
+    width: 75%;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.05em;
     color: #222222;
-    padding-left: 318px;
-    padding-right: 318px;
+    margin: 0 auto;
+    padding-bottom: 64px;
+    opacity: 1;
 }
 
 .finishProjectH3{
+    width: 75%;
     font-weight: 300;
     font-size: 36px;
     line-height: 46px;
@@ -210,6 +213,7 @@ body{
     color: #000000;
     padding-top: 63px;
     padding-bottom: 32px;
+    margin: 0 auto;
 }
 
 .paragraphH4{
