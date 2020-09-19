@@ -8,6 +8,45 @@
     margin: 0 auto;
 }
 
+.containerContacts{
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.header__contacts{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-top: 45px;
+    margin-left: 130px;
+}
+
+
+.contact_img{
+    position: absolute;
+    width: 100%;
+}
+
+
+.BigH2_contacts{
+    margin-top: 0px;
+    position: relative;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.logo1{
+    margin-top: 45px;
+    margin-right: 130px;
+    margin-bottom: 50px;
+}
+
 .top{
     height: 768px;
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
