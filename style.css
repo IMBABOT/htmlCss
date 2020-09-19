@@ -60,10 +60,6 @@
 
 .footertop{
     padding-bottom: 96px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
 }
 
 .containerfooter{
@@ -81,29 +77,58 @@
     margin-top: 64px;
 }
 
-.footerH3{
-    width: 340px;
-    text-align: left;
-    font-size: 36px;
-    line-height: 46px;
+.footer_list{
+    font-size: 16px;
+    line-height: 26px;
     letter-spacing: 0.05em;
     color: #FFFFFF;
-    padding-right: 800px;
+    flex-grow: 1;
+    flex-basis: 33.3333%;
+    list-style-type: none;
+    display: flex;
+    margin-right: 32px;
+}
+
+
+
+.footerH3{
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+}
+
+
+.heading{
+    width: 340px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+    
+}
+
+.All_rights{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
+
+    padding-top: 64px;
 }
 
 .paragraph__footer{
+    margin-top: 0px;
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
     color: #FFFFFF;
     opacity: 0.6;
-    padding-right: 658px;
-    padding-top: 32px;
+    margin-right: 600px;
 }
 
 .footer_button{
-    padding-left: 1000px;
-    padding-top: 100px;
+  padding-left: 1000px;
 }
 
 
