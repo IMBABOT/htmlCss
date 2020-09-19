@@ -29,6 +29,21 @@
     margin: 0 auto;
 }
 
+.logo1{
+    padding-top: 35px;
+    padding-left: 130px;
+}
+
+.logo2{
+    padding-top: 35px;
+    padding-right: 130px;
+}
+
+.imageback{
+    width: 100%;
+}
+
+
 .footer_contacts{
     display: flex;
     justify-content: space-between;
