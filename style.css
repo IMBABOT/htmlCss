@@ -1,4 +1,3 @@
-  
 *{
     margin: 0; 
     padding: 0;
@@ -516,6 +515,66 @@ body{
     padding-bottom: 112px;
   }
 
+  @media(max-width: 1024px){
+    .container{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .top_box{
+        background-position: right 180px;
+    }
+    .footer_button{
+        padding-left: 40%; 
+    }
 
+
+@media(max-width: 667px){
+    .header{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 24px;
+    }
+
+    .top_box{
+        padding-top: 36px;
+        display: flex;
+        flex-direction: column;
+        background-image: none;
+    }
+     .footer_button{
+      padding-left: 5%; 
+    }
+    .BigH1{
+      width: 100%;
+      font-weight: 300;
+      font-size: 32px;
+      line-height: 37px;
+      text-align: center;
+      letter-spacing: 0.04em;
+      color: #1F3F68;
+      margin-bottom: 12px;
+      text-align: center;
+    }
+
+    .paragraphTOP{
+      width: 100%;
+      text-align: center;
+    }
+    .AutomationTool{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      padding-top: 20px;
+    }
+
+    .top_button{
+        font-size: 12px;
+        line-height: 26px;
+        padding: 0 8px;
+        text-align: center;
+    }
+
+  }
+}
 
 
