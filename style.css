@@ -92,19 +92,19 @@
 
 
 .footerH3{
-    font-size: 36px;
-    font-weight: 300;
-    line-height: 46px;
-    letter-spacing: 0.05em;
+    width: 340px;
+    text-align: left;
+    color: #FFFFFF;
+    padding-left: 113px;
+    padding-bottom: 32px;
 }
 
 
 .heading{
-    width: 340px;
-    text-align: left;
-    color: #FFFFFF;
-    margin-bottom: 32px;
-    
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 46px;
+    letter-spacing: 0.05em;   
 }
 
 .All_rights{
@@ -117,18 +117,27 @@
     padding-top: 64px;
 }
 
-.paragraph__footer{
-    margin-top: 0px;
+.button__move{
+    padding-left: 900px;
+}
+
+.footerbottom{
+    padding-left: 160px;
+}
+
+.paragraphF{
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
-    color: #FFFFFF;
     opacity: 0.6;
-    margin-right: 600px;
+
+    padding-right: 758px;
+    padding-left: 113px;
 }
 
-.footer_button{
-  padding-left: 1000px;
+
+.footerP{
+    color: #FFFFFF;
 }
 
 
@@ -515,6 +524,19 @@ body{
     padding-bottom: 112px;
   }
 
+  .footer_button{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding: 15px 80px;
+    background: #5A98D0;
+    text-decoration: none;
+  }
+
+
+
   @media(max-width: 1024px){
     .container{
         padding-left: 32px;
@@ -523,10 +545,7 @@ body{
     .top_box{
         background-position: right 130px;
     }
-    .footer_button{
-        padding-left: 40%; 
-    }
-
+ 
     .what-we-do{
         display: flex;
         flex-direction: column;
@@ -543,6 +562,20 @@ body{
         line-height: 28px;
         text-align: center;
         color: #000000;
+    }
+
+    .second_text{
+        top: 19px;
+        left: 19px;
+    }
+
+    .footer{
+        background: #316099;
+        padding-top: 47px;
+        padding-bottom: 32px;
+        margin-top: 112px;
+        padding-left: 124px;
+        padding-right: 308px;
     }
 
    
@@ -568,9 +601,7 @@ body{
         flex-direction: column;
         background-image: none;
     }
-     .footer_button{
-      padding-left: 5%; 
-    }
+ 
     .BigH1{
       width: 100%;
       font-weight: 300;
