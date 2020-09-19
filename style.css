@@ -9,7 +9,7 @@
 }
 
 .top{
-    height: 768px;
+    min-height: 768px;
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
 }
 
@@ -287,7 +287,7 @@ body{
 .project__parent{
     display: flex;
     justify-content: space-between;
-    margin-top: 32px;
+    margin-top: 16px;
 }
 
 .project__item{
@@ -521,11 +521,32 @@ body{
         padding-right: 32px;
     }
     .top_box{
-        background-position: right 180px;
+        background-position: right 130px;
     }
     .footer_button{
         padding-left: 40%; 
     }
+
+    .what-we-do{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        margin-bottom: 32px;
+    }
+
+    .digitalH3{
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: #000000;
+    }
+
+   
+
 
 
 @media(max-width: 667px){
@@ -533,6 +554,12 @@ body{
         display: flex;
         justify-content: space-between;
         padding-top: 24px;
+    }
+
+    .top{
+        min-height: 376px;
+        padding-bottom: 41px;
+        box-sizing: border-box;
     }
 
     .top_box{
@@ -572,8 +599,77 @@ body{
         line-height: 26px;
         padding: 0 8px;
         text-align: center;
+    
     }
 
+    .card{
+        width: 100%;
+    }
+
+    .digitalH3{
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: #000000;
+        padding-top: 48px;
+        padding-bottom: 32px;
+
+    }
+
+    .finishProjectH3{
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .finishProject__para{
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #222222;
+        width: 100%;
+    }
+
+    .project__text{
+        font-size: 16px;
+        line-height: 19px;
+        text-align: right;
+        color: #FFFFFF;
+        top: 16px;
+        left: 16px;
+    }
+
+    .second_text{
+        top: 26px;
+        left: 16px;
+    }
+
+    .third_text{
+        top: 26px;
+        left: 16px;
+    }
+
+    .project__parent{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    .project__item__first{
+        margin: 0;
+    }
+
+    .finishProject__para{
+        padding-bottom: 82px;
+    }
+    .project__item__third{
+        padding-top: 16px;
+    }
+   
   }
 }
 
