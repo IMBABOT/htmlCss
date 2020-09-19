@@ -387,6 +387,11 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
+    padding-top: 10%;
+}
+
+.one__Element{
+    padding-bottom: 10%;
 }
 
 
