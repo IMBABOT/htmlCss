@@ -467,9 +467,12 @@ body{
     letter-spacing: 0.04em;
     color: #1F3F68;
     padding-bottom: 48px;
+    padding-top: 56px;
+    padding-left: 50px;
 }
 
 .fullname_para{
+    margin-left: 50px;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.04em;
@@ -478,11 +481,39 @@ body{
 }
 
 .FeedBack {
+    margin-left: 50px;
+    margin-right: 50px;
     border-radius: 10px;
     width: 450px;
     padding: 20px 10px;
-    border: 1px solid lightblue; /*change to whatever colour you want */
-    color: lightgray; /*change to whatever colour you want */ 
+    border: 1px solid lightblue; 
+    color: lightgray; 
+}
+
+  .button__sumbit{
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    text-align: center;
+    margin-top: 72px;
+    margin-bottom: 56px;
+    margin-left: 56px;
+    margin-right: 56px;
+  }
+
+  .message{
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+  }
+
+  .map{
+    display: flex;
+    justify-content: center;
+    padding-top: 96px;
+    padding-bottom: 112px;
   }
 
 
