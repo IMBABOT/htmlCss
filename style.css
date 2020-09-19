@@ -394,5 +394,97 @@ body{
     padding-bottom: 10%;
 }
 
+.image{
+    padding-top: 88px;
+}
+
+.BigH4_ADDRESS{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    padding-top: 56px;
+}
+
+.paragraph_adress{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.6;
+
+    padding-top: 24px;
+    padding-bottom: 40px;
+}
+
+.BigH4_Phone{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    padding-bottom: 24px;
+}
+
+.Phone1{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    text-decoration: none;
+    padding-bottom: 16px;
+}
+
+.BigH4_ONLINE{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    padding-bottom: 24px;
+}
+
+.site{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    padding-bottom: 16px;
+    text-decoration: none;
+}
+
+.sitefirst{
+    text-decoration: none;
+}
+
+.BigH4_Mesage{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    padding-bottom: 48px;
+}
+
+.fullname_para{
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+}
+
+.FeedBack {
+    border-radius: 10px;
+    width: 450px;
+    padding: 20px 10px;
+    border: 1px solid lightblue; /*change to whatever colour you want */
+    color: lightgray; /*change to whatever colour you want */ 
+  }
+
+
 
 
