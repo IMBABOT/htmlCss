@@ -25,24 +25,9 @@
 
 
 .contactscontainer{
-    max-width: 1800px;
+    max-width: 100%;
     margin: 0 auto;
 }
-
-.logo1{
-    padding-top: 35px;
-    padding-left: 130px;
-}
-
-.logo2{
-    padding-top: 35px;
-    padding-right: 130px;
-}
-
-.imageback{
-    width: 100%;
-}
-
 
 .footer_contacts{
     display: flex;
@@ -369,3 +354,40 @@ body{
     color: #FFFFFF;
     text-transform: uppercase;
 }
+
+.logo1{
+    padding-left: 130px;
+}
+
+.logo2{
+    padding-right: 130px;
+}
+
+
+.BigH2_contacts{
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+
+}
+
+.paragraph_contacts{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts_top{
+    background-image: url(./img/Mask\ Contacts.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+
+
