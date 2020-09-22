@@ -28,16 +28,9 @@
     margin: 0 auto;
 }
 
-.footer_contacts{
-    display: flex;
-    justify-content: space-between;
-}
-
-
 .contactsinput{
     display: flex;
     justify-content: space-around;
- 
 }
 
 .contacts{
@@ -51,52 +44,11 @@
     flex-direction: column;
 }
 
-.footer{
-    background: #316099;
-    padding-top: 91px;
-    padding-bottom: 64px;
-    margin-top: 112px;
-}
-
-.footertop{
-    padding-bottom: 96px;
-}
-
-.containerfooter{
-    max-width: 1140px;
-    margin: 0 auto;
-}
-
-.topfooter{
-    position: relative;
-}
 
 .bootomcontacts{
     display: flex;
     justify-content: space-between;
     margin-top: 64px;
-}
-
-.footer_list{
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-    flex-grow: 1;
-    flex-basis: 33.3333%;
-    list-style-type: none;
-    display: flex;
-    margin-right: 32px;
-}
-
-
-
-.footerH3{
-    width: 340px;
-    text-align: left;
-    color: #FFFFFF;
-    padding-left: 113px;
-    padding-bottom: 32px;
 }
 
 
@@ -117,13 +69,7 @@
     padding-top: 64px;
 }
 
-.button__move{
-    padding-left: 900px;
-}
 
-.footerbottom{
-    padding-left: 160px;
-}
 
 .paragraphF{
     font-size: 16px;
@@ -135,15 +81,6 @@
     padding-left: 113px;
 }
 
-
-.footerP{
-    color: #FFFFFF;
-}
-
-
-.hr{
-    opacity: 0.4;
-}
 
 .header{
     display: flex;
@@ -524,7 +461,43 @@ body{
     padding-bottom: 112px;
   }
 
-  .footer_button{
+  .footer{
+      background: #316099;
+      padding-top: 91px;
+      padding-bottom: 64px;
+      margin-top: 112px;
+  }
+
+  .footer__top{
+      padding-bottom: 96px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .footer__text{
+      width: 495px;
+  }
+
+  .footer__heading{
+      width: 340px;
+      text-align: left;
+      color: #FFFFFF;
+      margin-bottom: 32px;
+  }
+
+.heading{
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+  }
+
+.text_footer{
+    color: #FFFFFF;
+}
+
+.footer__button{
     font-size: 16px;
     line-height: 26px;
     text-align: center;
@@ -533,7 +506,14 @@ body{
     padding: 15px 80px;
     background: #5A98D0;
     text-decoration: none;
-  }
+}
+
+.text{
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+}
 
 
 
@@ -568,18 +548,6 @@ body{
         top: 19px;
         left: 19px;
     }
-
-    .footer{
-        background: #316099;
-        padding-top: 47px;
-        padding-bottom: 32px;
-        margin-top: 112px;
-        padding-left: 124px;
-        padding-right: 308px;
-    }
-
-   
-
 
 
 @media(max-width: 667px){
