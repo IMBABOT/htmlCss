@@ -577,6 +577,28 @@ body{
         padding-top: 15px;
     }
 
+    .image{
+        padding-top: 44px;
+    }
+
+    .BigH4_ADDRESS{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.04em;
+        color: #1F3F68;
+        padding-top: 64px;
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        max-width: 299px;
+        text-align: left;
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+
     .contactsinput{
         display: flex;
         flex-direction: column;
