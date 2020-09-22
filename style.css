@@ -577,6 +577,16 @@ body{
         padding-top: 15px;
     }
 
+    .contactsinput{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .one__Element{
+        padding-bottom: 0%;
+    }
+
+
     .logo1{
         padding-top: 5px;
         padding-left: 32px;
@@ -613,7 +623,6 @@ body{
         text-align: center;
         letter-spacing: 0.04em;
         color: rgba(255, 255, 255, 0.6);
-        padding-bottom: 160px;
         padding-left: 124px;
         padding-right: 124px;
     }
