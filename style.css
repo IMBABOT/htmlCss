@@ -461,6 +461,11 @@ body{
     padding-bottom: 112px;
   }
 
+  .container{
+      width: 1140px;
+      margin: 0 auto;
+  }
+
   .footer{
       background: #316099;
       padding-top: 91px;
@@ -485,6 +490,44 @@ body{
       color: #FFFFFF;
       margin-bottom: 32px;
   }
+
+  .footer__info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 64px;
+ }
+
+ .footer_list{
+     font-size: 16px;
+     line-height: 26px;
+     letter-spacing: 0.05em;
+     color: #FFFFFF;
+     flex-grow: 1;
+     flex-basis: 33.3333%;
+     list-style-type: none;
+     display: flex;
+     margin-right: 64px;
+ }
+
+.footer_list:first-child::before{
+   content: 'A';
+   display: block;
+   margin-right: 16px;
+}
+
+.footer_list:nth-child(2n)::before{
+    content: 'T.';
+    display: block;
+    margin-right: 16px;
+}
+
+.footer_list:nth-child(3n)::before{
+    content: 'E.';
+    display: block;
+    margin-right: 16px;
+}
+
+
 
 .heading{
     font-size: 36px;
