@@ -226,9 +226,7 @@ body{
     margin: 0 auto;
 }
 
-.project{
 
-}
 
 .project__parent{
     display: flex;
@@ -266,7 +264,7 @@ body{
     top: 32px;
 }
 
-.project__img{
+.project__image{
     width: 100%;
 }
 
