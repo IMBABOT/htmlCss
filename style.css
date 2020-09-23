@@ -373,6 +373,15 @@ body{
     padding-bottom: 24px;
 }
 
+
+.HZ{
+    list-style-type: none;
+}
+
+.sitefirst{
+    list-style-type: none;
+}
+
 .Phone1{
     font-weight: 300;
     font-size: 16px;
@@ -539,8 +548,6 @@ body{
     margin-right: 16px;
 }
 
-
-
 .heading{
     font-size: 36px;
     font-weight: 300;
@@ -579,6 +586,7 @@ body{
 
     .image{
         padding-top: 44px;
+     
     }
 
     .BigH4_ADDRESS{
@@ -590,13 +598,21 @@ body{
         padding-top: 64px;
     }
 
+    .paragraph_adress{
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.04em;
+        color: #1F3F68;
+        opacity: 0.6;
+    }
+
     .contacts {
         display: flex;
         flex-direction: column;
-        max-width: 299px;
+        max-width: 350px;
         text-align: left;
-        padding-left: 300px;
-        padding-right: 300px;
+        margin: 0 auto;
     }
 
     .contactsinput{
@@ -605,7 +621,8 @@ body{
         text-align: center;
     }
     .one__Element{
-        padding-bottom: 0%;
+        display: flex;
+        flex-direction: column;
     }
 
 
@@ -618,6 +635,7 @@ body{
         padding-top: 5px;
         padding-right: 32px;
     }
+
     
     .contacts_top{
         background-image: url(./img/Mask\ Contacts.png);
@@ -636,6 +654,7 @@ body{
         color: #FFFFFF;
         padding-left: 124px;
         padding-right: 124px;
+    
     }
 
     .paragraph_contacts{
