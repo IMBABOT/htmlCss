@@ -746,10 +746,6 @@ body{
 
 
 @media(max-width: 667px){
-    .contactscontainer {
-        min-width: 667px;
-        margin: 0 auto;
-    }
 
     .one__Element {
         display: flex;
