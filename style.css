@@ -436,10 +436,9 @@ body{
     margin-left: 50px;
     margin-right: 50px;
     border-radius: 10px;
-    width: 450px;
     padding: 20px 10px;
-    border: 1px solid lightblue; 
-    color: lightgray; 
+    border: 1px solid lightblue;
+    color: lightgray;
 }
 
   .button__sumbit{
@@ -746,6 +745,54 @@ body{
 
 
 @media(max-width: 667px){
+    .header{
+        padding-top: 0px
+    }
+
+
+    .ADDRESS{
+        padding-left: 40px;
+    }
+
+    .phone{
+        padding-left: 40px;
+    }
+
+    .image{
+        padding-left: 40px;
+    }
+
+    .onlineservice{
+        padding-left: 40px;
+    }
+
+    .logo1{
+        padding-left: 15px;
+        padding-top: 15px;
+    }
+
+    .logo2{
+        padding-right: 15px;
+        padding-top: 15px;
+    }
+
+    .BigH2_contacts{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        padding-bottom: 32px;
+    }
+
+    .paragraph_contacts{
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
     .one__Element {
         display: flex;
         flex-direction: column;
@@ -765,13 +812,6 @@ body{
         justify-content: space-between;
     }
 
-    .contacts_top{
-        background-image: url(./img/Mask\ Contacts.png);
-        background-repeat: no-repeat;
-        background-position: 0px 75px;
-        background-size:100% 100%;
-    }
-    
     .logo1{
         padding-left: 15px;
         padding-top: 15px;
@@ -969,11 +1009,7 @@ body{
             background-size:100% 100%;
         }
     
-        
-        .contacts{
-            padding-left: 180px;
-            padding-right: 180px;
-        }
+
         
         .footer{
             padding-top: 48px;
