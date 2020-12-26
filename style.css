@@ -326,7 +326,7 @@ body{
 }
 
 .contacts_top{
-    background-image: url(./img/Mask\ Contacts.png);
+    background-image: url(./img/MaskContacts.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -800,7 +800,7 @@ body{
     }
 
     .contacts_top {
-        background-image: url(./img/Mask\ Contacts.png);
+        background-image: url(./img/MaskContacts.png);
         background-repeat: no-repeat;
         background-position: 0px 75px;
         background-size: 100% 100%;
@@ -1003,7 +1003,7 @@ body{
         }
 
         .contacts_top{
-            background-image: url(./img/Mask\ Contacts.png);
+            background-image: url(./img/MaskContacts.png);
             background-repeat: no-repeat;
             background-position: 0px 75px;
             background-size:100% 100%;
